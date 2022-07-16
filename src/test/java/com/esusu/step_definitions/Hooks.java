@@ -10,14 +10,14 @@ import org.openqa.selenium.TakesScreenshot;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
-    @Before("@bd")
+    @Before("@ui")
     public void setUpDriver(){
         // Using an implicit wait
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Driver.getDriver().manage().window().maximize();
     }
 
-    @After("@bd")
+    @After("@ui")
     public void tearDown(Scenario scenario){
 
         // checking if scenario is failed or not

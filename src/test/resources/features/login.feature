@@ -1,7 +1,7 @@
 Feature: As a user
   I should be able to login to my store app
   So that I can shop.
-  @ux
+  @ui
   Scenario: user logins in successfully
     Given we are on landing page
     When user clicks on sign_In option
