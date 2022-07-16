@@ -1,0 +1,462 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T01:48:37.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1454920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.setUpDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user can successfully verify order history",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-verify-order-history;user-can-successfully-verify-order-history",
+        "after": [
+          {
+            "result": {
+              "duration": 139734000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88172923000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is successfully logged in to store",
+            "match": {
+              "location": "com.esusu.step_definitions.OrderHistoryStepDef.userIsSuccessfullyLoggedInToStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4648775000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks order history and details option",
+            "match": {
+              "location": "com.esusu.step_definitions.OrderHistoryStepDef.userClicksOrderHistoryAndDetailsOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84861000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can view their order history",
+            "match": {
+              "location": "com.esusu.step_definitions.OrderHistoryStepDef.userCanViewTheirOrderHistory()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to verify order history",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-verify-order-history",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrderHistory.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T01:50:12.672Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5715456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.setUpDriver()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "user successfully add two items to cart",
+        "description": "",
+        "id": "as-a-user;user-successfully-add-two-items-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 93915000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137846615000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is successfully logged to store",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.userIsSuccessfullyLoggedToStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17182060000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects item one",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.userSelectsItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78545000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "There are two items in your cart message is displayed",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.thereAreItemsInYourCartMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17819729000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects proceed to logout",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.userSelectsProceedToLogout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3323020000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user checks payment method",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.userChecksPaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4834117000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should successfully place order",
+            "match": {
+              "location": "com.esusu.step_definitions.CartStepDefs.userShouldSuccessfullyPlaceOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "As a user",
+    "description": "  I should be able to add 2 items to cart\n  so that I can purchase them",
+    "id": "as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/cartItems.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T01:53:19.598Z",
+        "before": [
+          {
+            "result": {
+              "duration": 526568000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.setUpDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "user logins in successfully",
+        "description": "",
+        "id": "as-a-user;user-logins-in-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 781079000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16737487000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we are on landing page",
+            "match": {
+              "location": "com.esusu.step_definitions.LoginStepDef.we_are_at_my_store_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4694488000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sign_In option",
+            "match": {
+              "location": "com.esusu.step_definitions.LoginStepDef.user_clicks_on_signin_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6538020000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters correct email and password",
+            "match": {
+              "location": "com.esusu.step_definitions.LoginStepDef.userEntersCorrectEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2266624000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is logs in successfully",
+            "match": {
+              "location": "com.esusu.step_definitions.LoginStepDef.user_user_should_be_directed_to_enter_metadata_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "As a user",
+    "description": "  I should be able to login to my store app\n  So that I can shop.",
+    "id": "as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T01:53:51.177Z",
+        "before": [
+          {
+            "result": {
+              "duration": 518694000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.setUpDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "user initiates Signup and signOut successfully",
+        "description": "",
+        "id": "my-store-signup-and-signout;user-initiates-signup-and-signout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1435658000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.esusu.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17223860000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "we are at my store landing page",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.we_are_at_my_store_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4911277000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on signIn option",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.user_clicks_on_signin_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325937000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enters e-mail address",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.enters_e_mail_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3073156000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks create account button",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.clicks_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2175735000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user user should be directed to enter metadata page",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.user_user_should_be_directed_to_enter_metadata_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10419816000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fills all credentials",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.userFillsAllCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8241101000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicks register button",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.clicksRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097348000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is redirected to homePage",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.userIsRedirectedToHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3241778000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user can successfully logout when done shopping",
+            "match": {
+              "location": "com.esusu.step_definitions.SignUpAndSignOutStepDef.userCanSuccessfullyLogoutWhenDoneShopping()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "My store SignUp and SignOut",
+    "description": "  As a user\n  I should be able to SignUp to my store account and sign out",
+    "id": "my-store-signup-and-signout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signup_signout.feature",
+    "tags": []
+  }
+]
