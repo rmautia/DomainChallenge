@@ -1,7 +1,7 @@
 Feature: As a user I should be able to complete checkout process with any payment option
 
 
-  @ut
+  @ui
   Scenario: user successfully complete checkout process
     Given user is logged to store
     And user adds two items to cart
