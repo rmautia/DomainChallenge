@@ -1,6 +1,4 @@
-Feature: My store SignUp and SignOut
-  As a user
-  I should be able to SignUp to my store account and sign out
+Feature: As a user I should be able to SignUp to my store account and sign out
 
 #  Background:
 #    Given we are at my store landing page

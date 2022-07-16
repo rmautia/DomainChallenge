@@ -1,6 +1,4 @@
-Feature: As a user
-  I should be able to add 2 items to cart
-  so that I can purchase them
+Feature: As a user I should be able to add 2 items to cart
 
   @ui
   Scenario: user successfully add two items to cart
