@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         },
 
         dryRun = false,
-        tags = "@ui" )
+        tags = "@ut" )
 
 public class TestRunner {
 

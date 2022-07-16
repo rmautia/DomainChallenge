@@ -34,8 +34,8 @@ public class CartStepDefs {
 
     }
 
-    @And("user selects item one")
-    public void userSelectsItem() {
+    @And("user selects two items to cart")
+    public void userSelectsItems() {
         js.executeScript("arguments[0].scrollIntoView(true)" , Driver.getDriver().findElement(By.xpath("(//a[@title='Specials'])[1]")));
         BrowserUtil.waitFor(2);
 
@@ -66,42 +66,4 @@ public class CartStepDefs {
 
     }
 
-    @When("user selects proceed to logout")
-    public void userSelectsProceedToLogout() {
-
-        add.proceed1.click();
-        BrowserUtil.waitFor(2);
-
-        add.proceed2.click();
-        BrowserUtil.waitFor(2);
-
-        add.proceed3.click();
-        BrowserUtil.waitFor(2);
-
-        add.checkBoxBtn.click();
-
-        add.proceed4.click();
-        BrowserUtil.waitFor(2);
-
-    }
-
-    @And("user checks payment method")
-    public void userChecksPaymentMethod() {
-
-        add.payment.click();
-        BrowserUtil.waitFor(2);
-
-
-
-
-    }
-
-    @Then("user should successfully place order")
-    public void userShouldSuccessfullyPlaceOrder() {
-
-        add.confirmOrder.click();
-        BrowserUtil.waitFor(2);
-
-        Assert.assertTrue(add.confirmationMsg.isDisplayed());
-    }
 }

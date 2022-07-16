@@ -1,5 +1,4 @@
-Feature: As a user
-  I should be able to login to my store app
+Feature: As a user I should be able to login to my store app
   So that I can shop.
   @ui
   Scenario: user logins in successfully

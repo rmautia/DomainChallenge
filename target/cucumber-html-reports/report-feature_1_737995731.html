@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports  - Feature: As a user</title>
+<title>Cucumber Reports  - Feature: As a user I should be able to add 2 items to cart</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>16 Jul 2022, 04:54</td>
+      <td>16 Jul 2022, 23:04</td>
     </tr>
   </tbody>
 </table>
@@ -126,20 +126,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">As a user</td>
-          <td      class="passed"    >6</td>
-          <td >0</td>
-          <td >0</td>
+          <td class="tagname">As a user I should be able to add 2 items to cart</td>
+          <td      class="passed"    >2</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >3</td>
           <td >0</td>
           <td >0</td>
           <td class="total">6</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="181084086000">3:1.084</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="85234222000">1:25.234</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,15 +171,14 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">As a user</span>
+  <span class="name">As a user I should be able to add 2 items to cart</span>
 
 
 </div>
 
-        <div class="description indention">  I should be able to add 2 items to cart
-  so that I can purchase them</div>
+        <div class="description indention"></div>
 
         <div class="elements inner-level">
 
@@ -192,12 +191,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">3:1.084</span>
+  <span class="lead-duration duration">1:25.234</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">user successfully add two items to cart</span>
 
@@ -208,7 +207,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
@@ -230,7 +229,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.esusu.step_definitions.Hooks.setUpDriver()</span>
 
-  <span class="lead-duration duration">5.715</span>
+  <span class="lead-duration duration">0.534</span>
 
           </div>
 
@@ -247,9 +246,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -259,7 +258,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -267,7 +266,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user is successfully logged to store</span>
 
-  <span class="lead-duration duration">2:17.846</span>
+  <span class="lead-duration duration">1:13.414</span>
 
 </div>
 
@@ -294,7 +293,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user selects item one</span>
 
-  <span class="lead-duration duration">17.182</span>
+  <span class="lead-duration duration">11.729</span>
 
 </div>
 
@@ -317,11 +316,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">There are two items in your cart message is displayed</span>
 
-  <span class="lead-duration duration">0.078</span>
+  <span class="lead-duration duration">0.089</span>
 
 </div>
 
@@ -329,6 +328,26 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>java.lang.AssertionError:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>java.lang.AssertionError: expected [2] but found []
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.esusu.step_definitions.CartStepDefs.thereAreItemsInYourCartMessageIsDisplayed(CartStepDefs.java:65)
+	at &#10045;.There are two items in your cart message is displayed(file:///home/raphael/Desktop/Intellij%20projects/DomainChallenge/src/test/resources/features/cartItems.feature:7)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -344,11 +363,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When skipped">
   <span class="keyword indention">When</span>
   <span class="name">user selects proceed to logout</span>
 
-  <span class="lead-duration duration">17.819</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -371,11 +390,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">user checks payment method</span>
 
-  <span class="lead-duration duration">3.323</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -398,11 +417,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">user should successfully place order</span>
 
-  <span class="lead-duration duration">4.834</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -429,7 +448,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -441,13 +460,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.esusu.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.093</span>
+  <span class="lead-duration duration">0.702</span>
 
           </div>
 
@@ -456,6 +475,21 @@ $(document).ready(function() {
 
 
 
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>failed scenario</a>
+      <a href="embeddings/embedding_373569253.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_373569253.png">
+      </div>
+    </div>
+  </div>
+  </div>
 
         </div>
     </div>
