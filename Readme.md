@@ -20,13 +20,19 @@ This a Domain challenge take home assessment for UI and API
 
 6. jUnit
 
-## Execution 
+## UI Execution 
 
 on CLI 
 
 execute
 
 mvn clean test
+
+## API Execution 
+
+Navigate to com/API/restAssuredAutomation
+
+run reqresAPI class
 
 ## Support and Contact
 ---
