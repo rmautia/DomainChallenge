@@ -77,8 +77,6 @@ public class Add2ItemsToCart {
     }
 
     public void loginAccess(){
-        this.signin_to.click();
-        BrowserUtil.waitFor(2);
         this.login_Email.sendKeys(ConfigReader.read("username"));
         this.login_Password.sendKeys(ConfigReader.read("password"));
         this.login_Button.click();
