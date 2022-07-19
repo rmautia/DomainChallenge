@@ -5,8 +5,6 @@ import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 import org.junit.Test;
 
-import static org.testng.Assert.*;
-
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;

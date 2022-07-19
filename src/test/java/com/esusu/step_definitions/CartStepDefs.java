@@ -6,11 +6,12 @@ import com.esusu.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
+
 
 public class CartStepDefs {
 
@@ -48,7 +49,7 @@ public class CartStepDefs {
         BrowserUtil.waitFor(2);
 
         add.addCart.click();
-        BrowserUtil.waitFor(2);
+        BrowserUtil.waitFor(8);
 
 
 
@@ -63,6 +64,8 @@ public class CartStepDefs {
         System.out.println(cartItems);
 
         Assert.assertEquals(cartItems, "2");
+
+        BrowserUtil.waitFor(2);
 
     }
 
