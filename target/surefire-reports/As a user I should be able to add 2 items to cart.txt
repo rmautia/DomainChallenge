@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: As a user I should be able to add 2 items to cart
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 228.193 s - in As a user I should be able to add 2 items to cart

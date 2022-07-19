@@ -1,0 +1,17 @@
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/utilities/BrowserUtil.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/utilities/MyStoreUtil.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/CartStepDefs.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/pages/Add2ItemsToCart.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/pages/CompleteCheckout.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/utilities/ConfigReader.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/API/restAssuredAutomation/reqresApi.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/pages/VerifyOrderHistory.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/CompleteCheckoutStepDef.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/utilities/Driver.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/pages/Login.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/pages/SignUpAndSignOut.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/runner/TestRunner.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/OrderHistoryStepDef.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/SignUpAndSignOutStepDef.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/Hooks.java
+/home/raphael/Desktop/Intellij projects/DomainChallenge/src/test/java/com/esusu/step_definitions/LoginStepDef.java
